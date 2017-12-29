@@ -11,15 +11,36 @@
         android:orientation="vertical">
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="100dp">
+            android:layout_height="100dp"
+            android:gravity="center_vertical"
+            android:background="@color/colorPrimary">
             <EditText
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:focusable="false"
+                android:background="@null"
+                android:hint="Search"
+                android:text="Memo"
+                android:layout_alignParentLeft="true"
                 android:id="@+id/edit_text"/>
+
             <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:id="@+id/image_button"/>
+                android:id="@+id/search_button"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_toStartOf="@+id/menu_button"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_search_white_48dp" />
+            <ImageButton
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:id="@+id/menu_button"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:scaleType="centerCrop"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_delete_white_48dp" />
         </RelativeLayout>
         <android.support.v7.widget.RecyclerView
             android:layout_width="match_parent"

@@ -4,7 +4,7 @@ package com.segyo.memo;
  * Created by sekyo on 2017-12-29.
  */
 
-public class RecyclerViewItem {
+public class ListViewItem {
     private String content = null;
     private String time = null;
 

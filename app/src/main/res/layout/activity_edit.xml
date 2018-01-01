@@ -50,9 +50,10 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="left|top"
-            android:text="aaaaaaaaaaaaaaaaaaaaa"
+            android:hint="내용을 입력해주세요"
             android:padding="16dp"
-            android:background="@null"/>
+            android:background="@null"
+            android:id="@+id/edit_text"/>
     </LinearLayout>
     <android.support.design.widget.FloatingActionButton
         android:layout_width="wrap_content"

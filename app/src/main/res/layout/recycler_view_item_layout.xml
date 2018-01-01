@@ -38,13 +38,4 @@
             android:text="time"
             android:textSize="14sp" />
     </LinearLayout>
-    <ImageButton
-        android:layout_width="24dp"
-        android:layout_height="24dp"
-        android:src="@drawable/ic_more_vert_black_24dp"
-        android:scaleType="centerCrop"
-        android:id="@+id/item_Button"
-        android:background="?attr/selectableItemBackgroundBorderless"
-        android:layout_marginRight="16dp"/>
-
 </LinearLayout>
